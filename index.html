@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jannah Ahmed</title>
+
+    <link rel="shortcut icon" href="images/Jannah Ahmed - Logo - square.png" />
+
+    <!--===============================Font=================================================-->
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+<!--===============================Scripts and Stylesheets======================================================================-->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" th:src="@{/webjars/jquery/3.3.1-1/jquery.min.js}"></script>
+    <script type="text/javascript" th:src="@{/webjars/bootstrap/4.2.1/js/bootstrap.min.js}"></script>
+    <link rel="stylesheet" th:href="@{/webjars/bootstrap/4.2.1/css/bootstrap.min.css}"/>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+    <!--===Custom Stylesheet===-->
+    <link href="css/style.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="header">
+
+
+      <!--==========================Nav Bar==================================-->
+      <nav class="navbar navbar-style">
+        <div class="container">
+          <div class="navbar-header">
+            <button
+              type="button"
+              class="navbar-toggle"
+              data-toggle="collapse"
+              data-target="#burgermenu"
+            >
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="logo" id="jannah" href="index.html"> JANNAH AHMED</a>
+          </div>
+          <div class="collapse navbar-collapse" id="burgermenu">
+            <ul class="nav navbar-nav navbar-right">
+              <li>
+                <a href="index.html" id="home-title-active"> Home</a>
+              </li>
+              <li><a href="about.html"> About</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+<!--============================ Hero  ============================================-->
+      <div class="container" id="hero-div">
+        <div class="row">
+          <div class="col-sm-6">
+            <h1 id="leftcolumn-h1">
+              HELLO! <br />
+              I AM JANNAH
+            </h1>
+            <p>THIS IS MY PERSONAL WEBSITE</p>
+            <a class="btn btn-first" id="abt-me-btn" href="about.html"
+              >ABOUT ME</a
+            >
+          </div>
+          <div class="col-sm-6">
+            <img src="images/hero-img.png" class="img-responsive" alt />
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--=======================End of Hero===================-->
+
+
+
+<!--=======================My Skills===================-->
+    <div class="skills-area" id="skills-div">
+      <p id="myskills-p" align="center">MY SKILLS</p>
+      <div class="skill">
+        <div class="skills-title">Graphic
+          design</div>
+        <div class="skills-bar">
+          <div class="first-s skill-fill">
+            <span class="skill-percent">90%</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="skill">
+        <div class="skills-title">frontend
+          development</div>
+        <div class="skills-bar">
+          <div class="second-s skill-fill">
+            <span class="skill-percent">60%</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="skill">
+        <div class="skills-title">Problem
+          solving</div>
+        <div class="skills-bar">
+          <div class="third-s skill-fill">
+            <span class="skill-percent">95%</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="skill">
+        <div class="skills-title">Teamwork</div>
+        <div class="skills-bar">
+          <div class="fourth-s skill-fill">
+            <span class="skill-percent">90%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--==================================End of skills=============-->
+
+
+    <!--==================================My Services====================-->
+
+
+    <section id="our-services">
+      <div class="container-fluid">
+        <h2 class="section-title mb-2 h1">MY SERVICES</h2>
+        <p class="text-center text-muted h5" id="service-description">
+          Here are the list of services that I provide
+        </p>
+
+        <div class="min-container">
+          <div class="left-service col-xs-12 col-sm-6 col-md-4">
+            <img id="service-image-1" src="images/img1-photoediting-01.png"/>
+            <p id="service-name-1">Photo Editing</p>
+            <p id="service-desc-1">
+              Give me any image I will edit the colors, size and much more.
+            </p>
+          </div>
+          
+          <div class="left-service col-xs-12 col-sm-6 col-md-4">
+            <img id="service-image-1" src="images/img1-text.png"  />
+            <p id="service-name-1">Script Writing
+            </p>
+            <p id="service-desc-1">
+              GIve me your idea and I will convert it into a magic script.
+  
+            </p>
+          </div>
+  
+          <div class="left-service col-xs-12 col-sm-6 col-md-4">
+            <img id="service-image-1" src="images/img1-graphicdesign.png"  />
+            <p id="service-name-1">Graphic Design</p>
+            <p id="service-desc-1">
+              I can design your logos, banners, cover photos and so much more.
+  
+            </p>
+          </div>
+        </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- ============End of services section============================-->
+
+
+    <!--=============================portfolio=======================-->
+    
+<!-- Images -->
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ul>
+<h1 align="center" style="padding:50px; background-color: #4000a5; color:white; font-family: "poppins semibold";">PORTFOLIO</h1>
+  <!-- Slides -->
+  <div class="carousel-inner ">
+    
+      <div class="item active" >
+          <img  src="images/img2-city.jpg" alt="City" height="300px" width="100%">
+      </div>
+
+      <div class="item">
+          <img  src="images/img2-bridge.jpg" alt="bridge" height="300px" width="100%">
+      </div>
+
+      <div class="item">
+          <img  src="images/img2-architecture.jpg" alt="architecture" height="300px" width="100%">
+      </div>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+  </a>
+</div>
+<!--==========================End of Portfolio=====================-->
+
+
+
+
+<!--==========================Find me at==========================-->
+
+  <div class="container">
+    <div class="col-md-6">
+      <div class="container" id="hero-div">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="images/socials-img.png" class="img-responsive" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class=" col-md-6 " id="txt-buttons-socials">
+      <div class="row"> <h1 style="color: #4000a5;"> YOU CAN FIND ME AT</h1>
+    <div class="wrapper">
+      <div class="button">
+        <div class="icon"> 
+          <a href="https://www.facebook.com/jannah.ahmed.50596/" style="color: #4267b2;"><i  class="fa fa-facebook-f"></i></a></div>
+<span>Facebook</span> 
+      </div>
+<div class="button">
+        <div class="icon">
+          <a href="https://www.pinterest.com/alldejign" style="color: #f21d39;"><i class="fa fa-pinterest"></i></a></div>
+<span>Pinterest</span>
+      </div>
+<div class="button">
+        <div class="icon">
+          <a href="https://www.instagram.com/dejigner.gd/" style="color: #e1306e;"><i class="fa fa-instagram"></i></a></div>
+<span>Instagram</span>
+      </div>
+<div class="button">
+        <div class="icon">
+          <a href="https://www.facebook.com/jannah.ahmed.50596/" style="color: #333;"><i class="fa fa-github"></i></a></div>
+<span>Github</span>
+      </div>
+</div></div>
+</div></div>
+<!--=========================================End of find me at =====================-->
+
+
+
+<!--========================================Footer==============================-->
+<footer id="footer" class="bg-dark text-center text-white">
+  
+  <div class="text-center p-3" style="background-color: #ffffff ; padding:50px margin-top:50px" ><div class="container p-4 pb-0">
+    
+   
+  </div id="toflex2">
+   <!-- Copyright -->
+    <p style="color: #4000a5;">© 2021 Copyright:  <a class="text-white" style="text-decoration: none; color: #4000a5; href="https://www.youtube.com/watch?v=9ZCTY_CJtqs">JANNAH AHMED</a></p>
+    
+  </div>
+ 
+</footer>
+  <!--=======================================End of footer============================-->
+  </body>
+</html>
